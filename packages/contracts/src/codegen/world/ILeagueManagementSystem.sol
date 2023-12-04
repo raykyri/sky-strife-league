@@ -8,11 +8,11 @@ pragma solidity >=0.8.21;
  * @dev This interface is automatically generated from the corresponding system contract. Do not edit manually.
  */
 interface ILeagueManagementSystem {
-  function CHANGE_THIS_LeagueManagement_addLeagueMatch(bytes32 matchEntity) external;
+  function WASD_LeagueManagement_addLeagueMatch(bytes32 matchEntity) external;
 
-  function CHANGE_THIS_LeagueManagement_removeLeagueMatch(bytes32 matchEntity) external;
+  function WASD_LeagueManagement_removeLeagueMatch(bytes32 matchEntity) external;
 
-  function CHANGE_THIS_LeagueManagement_addLeagueOrganizer(address account) external;
+  function WASD_LeagueManagement_addLeagueOrganizer(address account) external;
 
-  function CHANGE_THIS_LeagueManagement_removeLeagueOrganizer(address account) external;
+  function WASD_LeagueManagement_removeLeagueOrganizer(address account) external;
 }

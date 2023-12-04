@@ -1,7 +1,7 @@
 import { mudConfig } from "@latticexyz/world/register";
 
 export default mudConfig({
-  namespace: "CHANGE_THIS",
+  namespace: "WASD",
   tables: {
     LeagueMatch: "bool",
     LeagueOrganizer: {
